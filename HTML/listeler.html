@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listeler</title>
+</head>
+<body>
+  <h1>
+      Listeler
+  </h1>
+  <br>
+  <h3>Sıralı Listeler</h3>
+  <hr/>
+<ol>
+    <li>Liste -1</li>
+    <li>Liste -2</li>
+    <li>Liste -3</li>
+
+</ol>
+<br/>
+<ol type="i">
+    <li>Liste -1</li>
+    <li>Liste -2</li>
+    <li>Liste -3</li>
+
+</ol>
+<br/>
+<ol type="I">
+    <li>Liste -1</li>
+    <li>Liste -2</li>
+    <li>Liste -3</li> 
+</ol>
+<br/>
+<ol type="A">
+    <li>Liste -1</li>
+    <li>Liste -2</li>
+    <li>Liste -3</li> 
+</ol>
+<br/>
+<ol type="a">
+    <li>Liste -1</li>
+    <li>Liste -2</li>
+    <li>Liste -3</li> 
+</ol>
+<br/>
+<ol type="a" start="3">
+    <li>Liste -1</li>
+    <li>Liste -2</li>
+    <li>Liste -3</li> 
+</ol>
+<hr>
+<h3>
+    Sırasız Listeler
+</h3>
+<ul>
+    <li>List -1</li>
+    <li>List -2</li>
+
+    <li>List -3</li>
+
+</ul>
+<br/>
+<ul type="circle">
+    <li>List -1</li>
+    <li>List -2</li>
+
+    <li>List -3</li>
+
+</ul>
+<ul type="square">
+    <li>List -1</li>
+    <li>List -2</li>
+
+    <li>List -3</li>
+
+</ul>
+<ul type="none">
+    <li>List -1</li>
+    <li>List -2</li>
+
+    <li>List -3</li>
+
+</ul>
+<ul type="disc">
+    <li>List -1</li>
+    <li>List -2</li>
+
+    <li>List -3</li>
+
+</ul>
+<hr/>
+<h3>Açıklama Listeleri (Description List) (dt,dl)</h3>
+<br/>
+<dl>
+    <dt>İsim Soyisim</dt>
+    <dd>Ayşe </dd>
+</dl>
+<ol>
+    <li>Liste 1
+        <ol type="i">
+            <li>Alt Liste 1</li>
+            <li>Alt Liste 2</li>
+            <li>Alt Liste 3</li>
+        </ol>
+    </li>
+    <li>Liste 2</li>
+    <li>Liste 3
+
+        <ul>
+            <li>Alt Liste 1</li>
+            <li>Alt Liste 2</li>
+            <li>Alt Liste 3</li>
+
+
+        </ul>
+    </li>
+
+
+</ol>
+
+</body>
+</html>
+<!--
+
+    Listeler 3' e ayrılır.
+
+     -Sıralı Liste (Ordered List)
+     -Sırasız Liste (Unordered List)
+     -Açıklama Listeleri (Description List)
+
+       **Sıralı Listeler **
+       <ol> </ol> etiketiyle oluşturulur. <li></li> etiketleri <ol> </ol> etiketleri içine yazılarak listeler oluşturulur.
+       Sıralı listeler de 'type' ile listenin nasıl görüneceği gösterilebilir.
+        -- sıralı listeler de herhangi bir type belirtmezsek 1 den başlarak listeler gelir.
+        -- sıralı listeler de type 'a 'A' dersek liste A dan başlarak Z'ye kadar gider.
+
+        -- sıralı listeler de type 'a  '1' dersek liste a dan başlarak z'ye kadar gider.
+        -- sıralı listeler de type 'a 'i' dersek liste i dan başlar.
+         -- sıralı listeler de type 'a 'I' dersek liste I dan başlar.
+         -- Sıralı listeler de hangi değerden başlamasını istiyorsak start diyerek başlangıç değerimizi değiştirebiliriz.
+
+  **Sırasız Listeler **
+       <ul> </ul> etiketiyle oluşturulur. <li></li> etiketleri <ul> </ul> etiketleri içine yazılarak listeler oluşturulur.
+       Sırasız listeler de 'type' ile listenin nasıl görüneceği gösterilebilir.
+        -- sırasız listeler de herhangi bir type belirtmezsek içi dolu yuvarlak olarak listeler gelir.
+        -- sırasız listeler de type 'a 'circle' dersek liste içi boş yuvarlak olarak gelir.
+
+        -- sırasız listeler de type 'a 'square' dersek liste kare olarak gelir.
+        -- sırasız listeler de type 'a 'desc' dersek liste içi dolu yuvarlak olarak  gelir.
+        -- sırasız listeler de type 'a 'none' dersek listenin başında herhangi bir şey gelmez.
+
+
+
+-->
